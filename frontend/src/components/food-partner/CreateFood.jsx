@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import axios from 'axios';
 import '../../styles/create-food.css';
 import { useNavigate } from 'react-router-dom';
-import { axiosInstance } from '../../../api/axiosConfig';
+import  axiosInstance  from '../../../api/axiosConfig';
 
 
 const CreateFood = () => {
